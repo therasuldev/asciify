@@ -1,0 +1,12 @@
+[package]
+name = "asciify"
+version = "0.1.0"
+edition = "2021"
+description = "Converts photos into ASCII art and renders them as PNG images"
+
+[dependencies]
+image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
+ab_glyph = "0.2"
+
+[profile.release]
+opt-level = 3
