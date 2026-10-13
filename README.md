@@ -2,6 +2,11 @@
 
 Converts a photo into ASCII art and renders the result as a **PNG image**.
 
+<p align="center">
+  <img src="doc/results/avatar.png" alt="Input Avatar" width="45%" />
+  <img src="doc/results/ascii.png" alt="ASCII Art" width="45%" />
+</p>
+
 The output is not printed to the terminal — the glyph grid is drawn with a real
 monospace font and saved as a picture, so it is high-resolution and can be shared
 directly.
